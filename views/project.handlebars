@@ -1,0 +1,15 @@
+<div class="blocks-container">
+    <div ng-app="myApp" class="center" ng-controller="projectsCtrl">
+        <p class="projects-header">((project.name))</p>
+        <img src="/images/((project.screenshots[0]))" class="project-screenshot">
+        <p class="projects-description">((project.description))</p>
+        <p class="tech-header">Technologies:</p>
+        <div class="blocks-row">
+            <div class="tech-block" ng-repeat="x in project.technologies">
+                <div class="tech-tag">((x))</div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </div>
+</div>
+<script src="../js/project.js"></script>

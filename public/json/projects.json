@@ -1,0 +1,28 @@
+{
+    "projects":[
+        {
+            "name":"MCRAFT TUTORIALS",
+            "thumbnail":"mcrafttutorialsscreenie.png",
+            "boxSize":"big",
+            "description":"Browse for a cool looking MineCraft build and learn how to build it! My site allows users to go through a step-by-step lego-manual-styled tutorial to learn how to build various creations. Creators are also able to use the in-browser MineCraft building application in order to build and submit projects.",
+            "technologies":["ThreeJS", "HTML", "JavaScript", "AngularJS", "NodeJS", "ExpressJS", "PassportJS", "MongoDB", "Handlebars"],
+            "screenshots":["mcrafttutorialsscreenie1.png"]
+        },
+        {
+            "name":"MAPOUT",
+            "thumbnail":"mapoutscreenie.png",
+            "boxSize":"small",
+            "description":"Upload an over-the-top view of a map from any multiplayer game, and then plan out strategies with various drawing tools. Save and then show your team the plan of action!",
+            "technologies":["ASP.NET", "MVC", "CSHTML", "Javascript", "MongoDB", "Entity Framework"],
+            "screenshots":[]
+        },
+        {
+            "name":"V-PET",
+            "thumbnail":"vpetscreenie.png",
+            "boxSize":"small",
+            "description":"A virtual pet game. The pet will become hungry, tired, ill, and etc while it's moving around. It's the user's duty to take care of the pet. The pet can play a star-catching minigame in order to become happier and gain increased stats. Battle other creatures in battle-mode to earn money! Pets can grow and evolve into branching evolutions based on how the user cares for them.",
+            "technologies":["AndroidStudio", "C#"],
+            "screenshots":[]
+        }
+    ]
+}
