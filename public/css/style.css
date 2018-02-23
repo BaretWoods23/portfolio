@@ -121,12 +121,71 @@ a{
 	color: #000;
 }
 
+.about-me-description{
+	display: block;
+	width: 800px;
+	position: relative;
+	margin: 0 auto;
+	background-color: #0E1E33;
+	height: 300px;
+	border-radius: 25px;
+}
+
+.about-me-text{
+	color: #FFF;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	margin: auto;
+	display: block;
+	width: 460px;
+	font-size: 1.05em;
+}
+
+.contact-me-description{
+	display: block;
+	width: 800px;
+	position: relative;
+	margin: 0 auto;
+	background-color: #0E1E33;
+	height: 100px;
+	border-radius: 25px;
+}
+
+.contact-me-text{
+	margin: auto;
+	vertical-align: center;
+	color: #FFF;
+	font-size: 1.2em;
+	display: table;
+	width: 300px;
+	padding-top: 25px;
+}
+
+.about-me-photo{
+	width: 330px;
+	position: absolute;
+	right: 0;
+	margin: auto;
+	display: block;
+	border-radius: 25px;
+}
+
 .blocks-page{
     padding-top: 40px;
     padding-bottom: 10px;
     display: block;
     width: 100%;
     height: fit-content;
+    background-color: #161921;
+}
+
+.blocks-page2{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: block;
+    width: 100%;
+    min-height: 80vh;
     background-color: #161921;
 }
 
@@ -301,6 +360,10 @@ a{
 
 .spacer{
     height: 25px;
+}
+
+.big-spacer{
+	height: 55px;
 }
 
 /* carousel */

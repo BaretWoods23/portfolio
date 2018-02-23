@@ -1,0 +1,23 @@
+<div class="big-spacer"></div>
+<div class="blocks-page2">
+	<div class="projects-title">PROJECTS</div>
+    <div ng-app="myApp" ng-controller="projectsCtrl">
+        <div class="blocks-container">
+            <div class="blocks-row">
+                <a href="projects/0"><div class="large-block">
+                    <div class="large-block">
+                        <p class="project-text">MCRAFT TUTORIALS</p>
+                        <img class="project-image" src="images/mcrafttutorialsscreenie.png">
+                    </div>
+                </div></a>
+                <div class="small-block" ng-repeat="x in projects | filter: x: x.boxSize='small'">
+                    <a href="projects/(($index+1))"><div class="small-block">
+                        <p class="project-text">((x.name))</p>
+                        <img class="project-image" src="images/((x.thumbnail))">
+                    </div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/home.js"></script>
